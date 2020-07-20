@@ -1,0 +1,13 @@
+Cara Menginstal Laravel: 
+
+1. Cara mengecek apakah composer sudah terinstal atau belum, yaitu dengan cara ketik 'composer' di terminal(CMD) lalu enter (jika sudah terinstal, akan ada tulisan composer dan tulisan lain nya).
+2. Nyalakan Xampp, pastikan pada bagian apache dan MySQL sudah terStart.
+3. pastikan juga koneksi internet sudah siap dan membuat folder baru di dalam folder htdocs untuk Laravelnya.
+4. Setelah itu, untuk menentukan direktorinya ketik source code "cd (contoh cd C:\xampp/htdocs/).
+5. dan untuk menginstal laravelnya, ketik source code "composer create-project --prefer-dist laravel/laravel (nama project)".
+6. Jika sudah selesai menginstal, ketik kembali nama projectnya menggunakan source code "cd (nama project)".
+7. setelah itu, ketik source code "php artisan serve" untuk mendapatkan link agar bisa mengakses Laravel di browser.
+8. Selanjutnya, jika sudah mendapatkan link nya, lalu di copy dan paste di browser, lalu enter.
+9. dan Nanti akan muncul tampilan Laravel di browser.
+
+Selesai...
